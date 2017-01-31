@@ -1,0 +1,340 @@
+body {
+	width: 960px;
+	margin:auto;
+	margin-bottom: 20px;
+	background-color: lightgrey;
+}
+
+.container body {
+	display: flex;
+}
+
+.background {
+	font-family: 'Miriam Libre', sans-serif;
+	background: url(b-contact.jpg);
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0px, 10px;
+}
+
+h1 {
+	top: 0px;
+	text-indent: 10px;
+	font-size: 50px;
+	color:ghostwhite;
+	text-shadow: 3px 3px 5px #000000;
+}
+
+.background-logo {
+	display: flex;
+}
+
+.main-title {
+	font-family: 'Tenor Sans', sans-serif;
+	order: 2;
+	margin-top: 0px;
+	width: 100%;
+	margin-right: 160px;
+	height: 30px;
+	background-color: black;
+	color: white;
+	padding: 11px;
+	background-color: #033949;
+	text-shadow: 3px 3px 5px #000000;
+	text-indent: 160px;
+}
+
+.logo {
+	position: absolute;
+	order: 1;
+	width: 150px;
+	height: 150px;
+	margin-top: -50px;
+}
+
+/* Navitagion table */
+
+aside {
+	margin-top: -72px;
+	width: 200px;
+	display: flex;
+	float: right;
+	justify-content: center;
+}
+
+ul.nav-list {
+	font-family: 'Tenor Sans', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: flex;
+	flex-flow: column;
+	margin: 0px;
+	width: 200px;
+	list-style-type: none;
+}
+
+a.nav:link, a.nav:visited {
+	flex-grow: 1;
+	color: black;
+	text-decoration: none;
+	height: 52px;
+	background-color: #033949;
+	color: white;
+	display: flex;
+	font-size: 12px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+a.current:link, a.current:visited {
+	flex-grow: 1;
+	color: black;
+	text-decoration: underline;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px;
+	color: #033949;
+	border-style: solid;
+	border-color: #033949;
+	border-width: 4px;
+	display: flex;
+	font-size: 12px;
+	justify-content: center;
+	align-items: center;
+	height: 25px;
+	background-color: white;
+	
+}
+
+a.nav:hover {
+	border: 3px solid #A3FF15;
+	
+}
+
+.main-text {
+	display: flex;
+	flex-direction: column;
+	margin-top: -10px;
+	margin-right: 160px;
+	margin-left: 160px;
+}
+
+.title {
+	font-style: italic;
+}
+
+.info {
+	margin-bottom: 15px;
+}
+
+a.email {
+	text-decoration: underline;
+}
+
+/* rules styles */
+
+.doc-header, .information {
+	list-style-type: none;
+	flex-direction: column;
+}
+
+.title1, .title2b {
+	font-weight: bold;
+}
+.title2b1 {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.title2 {
+	margin-top: 0px;
+}
+
+.title3 {
+	list-style-type: lower-latin;
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+
+.all-play-sublist {
+	list-style-type: circle;
+}
+
+.info1 {
+	margin-top: 0px;
+	list-style-type: square;
+	margin-bottom: 10px;
+}
+
+.list3, .no-style {
+	list-style-type: none;
+}
+
+/* gane_info styles */
+
+.caption1 {
+	font-weight: bold;
+}
+
+.caption2 {
+	font-style: italic;
+	text-decoration: underline;
+}
+
+table {
+	display: flex;
+	justify-content: space-around;
+	align-self: center;
+	width: 90%;
+	margin-bottom: 10px;
+	border-collapse: collapse;
+}
+
+.table-calender {
+	display: flex;
+	flex-flow: column;
+	margin-bottom: 20px;
+	border-style: outset;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+.table-calender th, .table-calender td{
+	vertical-align: top;
+	width: 150px;
+}
+
+.table-location {
+	display: flex;
+	width: 100%;
+	border-style: outset;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+.table-location td {
+	width: 320px;
+}
+
+th {
+	text-align: left;
+	color: white;
+	background-color: #033949;
+}
+
+.table-calender th {
+	border-bottom: 1px solid black;
+}
+
+td{
+	border-bottom: 1px solid grey;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: white;
+}
+
+.calender-date {
+	text-align: center;
+}
+
+.contacts {
+	display: flex;
+	justify-content: space-between;
+}
+
+.locations-map {
+	display: flex;
+	justify-content: center;
+}
+iframe {
+	width: 500px;
+	height: 350px;
+}
+
+/* Registration form */
+
+form {
+	margin-right: 160px;
+	margin-left: 160px;
+	background-color: whi
+}
+
+.name, .address, .city-zip, .parent, .phone-email, .signature-date {
+	display: flex;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.birthdate-gender {
+	margin-bottom: 10px;
+}
+
+#gender {
+	margin-right: 0px;
+}
+
+input {
+	flex-grow: 1;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.grade input {
+	margin-left: 15px;
+}
+
+.first-school label, .second-school label, .jersey-size label, .shorts-size label {
+	display: block;
+	margin-right: 100px;
+	font-weight: bold;
+}
+
+.school-menu {
+	display: flex;
+}
+
+.unbold {
+	font-weight: normal;
+}
+
+.position-play {
+	display: flex;
+	width: 400px;
+}
+
+.normally-play1, .normally-play2 {
+	width: 95px;
+	flex-direction: column;
+	margin-right: 70px;
+}
+
+.uniform-size, .jsizes, .ssizes {
+	display: flex;
+}
+
+.jersey-size, .shorts-size {
+	display: block;
+}
+
+.jsize1, .jsize2, .ssize1 {
+	width: 150px;
+}
+
+.permission-title {
+	margin-top: 40px;
+	text-decoration:underline;
+}
+
+#birth-date {
+	width: 130px;
+}
+
+#signature-date {
+	width: 0px;
+}
+
+.submit {
+	display: inline-flex;
+}
